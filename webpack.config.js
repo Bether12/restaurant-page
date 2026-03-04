@@ -1,5 +1,6 @@
 import path from 'node:path';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
+import { type } from 'node:os';
 
 export default {
     mode: 'development',
@@ -27,7 +28,11 @@ export default {
             {
                 test: /\.html$/i,
                 use: ['html-loader'],
-            }
+            },
+            {
+                test: /\.png$/i,
+                type: 'asset/resource',
+            },
         ],
     }
 }

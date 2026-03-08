@@ -1,3 +1,33 @@
-h1, h2{
+#content{
+    display: grid;
+    grid-template-rows: 1fr 1fr 2fr;
+    justify-items: center;
+    gap: 30px;
+}
+
+.title{
+    display: grid;
+    grid-template-rows: 1fr 0.1fr;
+    justify-items: center;
+}
+
+.title h1, h2{
     color: #c78ffe;
+}
+
+.title h1{
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+
+.title h2{
+    font-style: italic;
+}
+
+p{
+    background-color: #00003f;
+    padding: 5px;
+    box-shadow: 1px 1px 5px 5px #c78ffe;
+    color:blueviolet;
+    width: clamp(45ch, 60vw, 75ch);
 }

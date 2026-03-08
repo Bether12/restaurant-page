@@ -17,7 +17,7 @@ export const homeLoader = function(container){
     img.src = logo;
 
     const text = document.createElement('p');
-    text.textContent = 'Founded in 1997, Stardust Restaurant always aimed to turn cooking from just an art to a precise science, implementing both the latest and well stablish scientific discoveries in related fields to give the best possible dishes to our clients.';
+    text.textContent = 'If you are searching for the best food in the galaxy, search no more! We offer the most delicious and extravagant dishes you will ever taste, all of them by the hand of the best certified chefs of planet Earth. Come by and see why we are the brightest restaurant in the business.';
 
     container.appendChild(titleDiv);
     container.appendChild(img);

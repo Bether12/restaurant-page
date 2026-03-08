@@ -24,10 +24,18 @@
     font-style: italic;
 }
 
+img{
+    height: clamp(80px, 40vh, 170px);
+    width: clamp(150px, 50vw, 250px);
+    border-radius: 50%;
+    border:#c78ffe solid 2px;
+}
+
 p{
     background-color: #00003f;
     padding: 5px;
     box-shadow: 1px 1px 5px 5px #c78ffe;
     color:blueviolet;
+    height: fit-content;
     width: clamp(45ch, 60vw, 75ch);
 }

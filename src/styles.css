@@ -6,7 +6,7 @@ header{
     background-color: #000431;
     margin: 0px;
     padding: 10px 0 10px 0;
-    border: 1px solid #c78ffe;
+    border-bottom:3px solid #c78ffe;
 }
 
 nav{
@@ -39,7 +39,3 @@ nav button:active{
     border: none;
 }
 
-.container{
-    border: 2px solid #c78ffe;
-    padding: 30px;
-}

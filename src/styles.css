@@ -1,0 +1,45 @@
+header{
+    display: grid;
+    justify-content: center;
+    min-width: 280px;
+    width: 100vw;
+    background-color: #000431;
+    margin: 0px;
+    padding: 10px 0 10px 0;
+    border: 1px solid #c78ffe;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin: 10px;
+}
+
+nav button{
+    color: #c78ffe;
+    background-color: #00005f;
+    border: 2px solid darkslategrey;
+    border-radius: 15px;
+    padding: 5px 10px 5px 10px;
+    font-size: 1.5rem;
+}
+
+nav button:hover{
+    background-color: #000431;
+    color: #cf8ffe;
+    border: violet;
+    border-style:groove;
+    font-style: italic;
+}
+
+nav button:active{
+    background-color: #c78ffe;
+    color: #000431;
+    border: none;
+}
+
+.container{
+    border: 2px solid #c78ffe;
+    padding: 30px;
+}

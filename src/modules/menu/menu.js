@@ -7,7 +7,7 @@ export const menuLoader = function(container, offers){
     h1.textContent = "Today's menu";
     container.appendChild(h1);
 
-    const createCard = (function(offers){
+    const createCard = (function(){
         for(let offer of offers){
             const card = document.createElement('div');
             card.className = 'card';

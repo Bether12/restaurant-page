@@ -1,37 +1,37 @@
-#content{
+.home{
     display: grid;
     grid-template-rows: 1fr 1fr 2fr;
     justify-items: center;
     gap: 30px;
 }
 
-.title{
+.home .title{
     display: grid;
     grid-template-rows: 1fr 0.1fr;
     justify-items: center;
 }
 
-.title h1, h2{
+.home .title h1, h2{
     color: #c78ffe;
 }
 
-.title h1{
+.home .title h1{
     font-size: 4rem;
     margin-bottom: 0;
 }
 
-.title h2{
+.home .title h2{
     font-style: italic;
 }
 
-img{
+.home img{
     height: clamp(80px, 40vh, 170px);
     width: clamp(150px, 50vw, 250px);
     border-radius: 50%;
     border:#c78ffe solid 2px;
 }
 
-p{
+.home p{
     background-color: #00003f;
     padding: 5px;
     box-shadow: 1px 1px 5px 5px #c78ffe;

@@ -19,7 +19,12 @@ export const homeLoader = function(container){
     const text = document.createElement('p');
     text.textContent = 'If you are searching for the best food in the galaxy, search no more! We offer the most delicious and extravagant dishes you will ever taste, all of them by the hand of the best certified chefs of planet Earth. Come by and see why we are the brightest restaurant in the business.';
 
-    container.appendChild(titleDiv);
-    container.appendChild(img);
-    container.appendChild(text);
+    const home = document.createElement('div');
+    home.className = 'home';
+
+    home.appendChild(titleDiv);
+    home.appendChild(img);
+    home.appendChild(text);
+
+    container.appendChild(home);
 };

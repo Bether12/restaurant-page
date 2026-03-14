@@ -1,0 +1,39 @@
+.menu{
+    padding: 10px;
+    display: grid;
+    justify-items: center;
+    padding-bottom: 40px;
+}
+
+.menu > h1{
+    color: #c78ffe;
+}
+
+.menu .cards{
+    display: grid;
+    grid-auto-rows: 1fr ;
+    grid-auto-columns: 1fr;
+    grid-auto-flow: row;
+}
+
+.menu .cards .card{
+    background-color: #00003f;
+    display: grid;
+    grid-template-columns: 1fr clamp(20ch, 10vw, 40ch);
+    grid-template-rows: 1fr;
+    gap: 10px;
+    align-items: center;
+    padding: 7px;
+    box-shadow: 1px 1px 5px 5px #c78ffe;
+    border-left: 5px solid #c78ffe;
+    border-radius: 5px;
+    color: blueviolet;
+    font-weight: bolder;
+}
+
+.menu .cards .card img{
+    grid-row: 1/4;
+    width: clamp(200px, 50vw, 400px);
+    height: clamp(100px, 40vh, 300px);
+    border-radius: 10px;
+}

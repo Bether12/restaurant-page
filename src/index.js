@@ -1,6 +1,7 @@
 import { homeLoader } from "./modules/home/home.js";
 import "./styles.css";
 import { menuLoader, offers } from "./modules/menu/menu.js";
+import { aboutLoader } from "./modules/about/about.js";
 
 const content = document.querySelector("#content");
 const nav = document.querySelector("nav");
@@ -18,7 +19,7 @@ nav.addEventListener('click', (e)=>{
         }else if(button.id === 'menu'){
             menuLoader(content, offers);
         }else if(button.id === 'about'){
-
+            aboutLoader(content);
         }
     }
 });

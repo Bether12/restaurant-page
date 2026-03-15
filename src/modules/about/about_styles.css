@@ -15,5 +15,6 @@ p{
     background-color: #000431;
     color: #cf8ffe;
     border: violet;
+    border-radius: 10px;
     border-style:groove;
 }

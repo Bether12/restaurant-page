@@ -10,10 +10,16 @@
 }
 
 .menu .cards{
+    max-height: 80vh;
+    margin: 10px;
+    padding: 10px;
+    border: #c78ffe solid 3px;
+    border-radius: 10px;
     display:flex;
     flex-wrap: wrap;
     gap: 25px;
     justify-content: center;
+    overflow: scroll;
 }
 
 .menu .cards .card{
